@@ -3,6 +3,6 @@
 使用方法：
 1. 将项目发布到Npm仓库
 2. 全局安装该仓库
-3. 执行 XBuilder init XXX 即可。  (XXX为工程名)
+3. 执行 xbuilder init XXX 即可。  (XXX为工程名)
 
 
