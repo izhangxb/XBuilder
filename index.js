@@ -72,7 +72,7 @@ program.version(require('./package.json').version, '-v, --version')
     )
     .on(
         '--help', ()=>{
-            console.log("just run \'XBuilder init XXX\'")
+            console.log("just run \'xbuilder init XXX\'")
         }
     )
 
