@@ -1,10 +1,10 @@
 {
-  "name": "subao-starter",
-  "version": "1.0.0-beta5",
-  "description": "速保前端工程脚手架生成工具",
+  "name": "xbuilder",
+  "version": "1.0.0",
+  "description": "工程生成工具",
   "main": "index.js",
   "bin": {
-    "subao-starter": "index.js"
+    "xbuilder": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
