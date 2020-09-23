@@ -20,7 +20,7 @@ program.version(require('./package.json').version, '-v, --version')
                             name: 'templateType',
                             message: 'which template type you need to create?',
                             type: 'list',
-                            choices: ['empty', 'pc_antd', 'h5_ant-mobile'],
+                            choices: ['empty', 'pc', 'h5'],
                         },
                         {
                             name: 'description',
@@ -38,7 +38,7 @@ program.version(require('./package.json').version, '-v, --version')
                         const spinner = ora('downloading template...')
                         spinner.start();
                         let type = answers.templateType === "empty" ?  "master" : answers.templateType
-                        const downloadPath = `direct:https://git.zhonganinfo.com/za-zhangxiaobo/subao_frontend_project_templete.git#${type}`
+                        const downloadPath = `direct:https://git.XXX.com/XXX/XXX.git#${type}`
 
                         download(downloadPath, name, {clone: true}, err => {
                             if (err) {
@@ -72,7 +72,7 @@ program.version(require('./package.json').version, '-v, --version')
     )
     .on(
         '--help', ()=>{
-            console.log("just run \'subao-starter init XXX\'")
+            console.log("just run \'XBuilder init XXX\'")
         }
     )
 
